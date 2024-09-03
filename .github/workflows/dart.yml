@@ -26,6 +26,6 @@ jobs:
           name: onenote_code_formatter_helper_windows
           path: build/windows/runner/Release
 
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4.1.7
         with:
           name: onenote_code_formatter_helper_windows
